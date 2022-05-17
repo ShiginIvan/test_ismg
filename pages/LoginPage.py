@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 class SearchLocators:
     username = (By.CSS_SELECTOR, "#username")
     password = (By.CSS_SELECTOR, "#password")
-    wrong_login_message = (By.CLASS_NAME, 'mb-3Q')
+    wrong_login_message = (By.CLASS_NAME, 'mb-3')
 
 
 class ActionLogin(BasePage):
