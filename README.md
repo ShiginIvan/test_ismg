@@ -1,5 +1,5 @@
 # test_ismg
-Стек проекта Python 3.10 + pytest + selenium + Allure
+Стэк проекта Python 3.10 + pytest + selenium + Allure
 
 Тесты реализованы с помощь паттерна PageObject
 
