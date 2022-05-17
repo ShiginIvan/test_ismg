@@ -2,6 +2,7 @@ from pages.BaseApp import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+
 class SearchLocators:
     createmessage_title = (By.CSS_SELECTOR, '#title')
     createmessage_body = (By.CSS_SELECTOR, '#message')
@@ -9,7 +10,8 @@ class SearchLocators:
     createmessage_button_create = (By.CSS_SELECTOR, '#btnSubmit')
     createmessage_schema = (By.CSS_SELECTOR, '#schema')
 
-class Action_MessageCreate(BasePage):
+
+class ActionMessageCreate(BasePage):
     def enter_data_message_default(self, title, message, address):
         search_field = self.find_element(SearchLocators.createmessage_title)
         search_field.send_keys(title)
